@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I could see where exactly the changes were made in the file and since it was displayed upfront, it was easy for me to correct it.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Lets say I did the project in a certain way, and then I had other plans and changed it completely. Now if I want to implement something that was done previously, it would be a tedious task to do it from scratch again. Instead, if I have access to the entire history, I can look back at the code and do it again, hence saving time. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Manual: 
+    	Pros: You have total control and you can commit as and when it makes sense for you to commit.
+    	Cons: You might forget to commit and that could be a problem in the future.
+    Automatic:
+    	Pros: Doesn't matter if you remember to commit or not, it gets done by itself everytime.
+    	Cons: Unnecessarily a lot of commits get created. It will be very hard to go through all the commits later.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    When writing code, many times, files are inter related to each other. So when changes are made in one file, it will be necessary to make changes in other file(s) as well. So, instead of commiting each file separately in a project, it is always better to commit all the files together. This way, person looking at it will know what changes have been made to the whole project (multiple files) instead of single files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log displays all the commits with its messages and time.
+    git diff is used to find the changes made in 2 commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Even if I create bugs, but I commit at each and every step, I can always go back and check exactly where and when the bug was introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Use git for launching sublime text and all the projects.
